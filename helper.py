@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.image import load_img,img_to_array
 current_path = os.getcwd()
 
 # Load the catdog model
-model = load_model(os.path.join(current_path, "static/catdog_model.h5"))
+model = load_model(os.path.join(current_path, "static/catdog_model"))
 
 def predict_catdog(img_path):
     
